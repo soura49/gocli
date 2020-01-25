@@ -1,1 +1,30 @@
-Myself learning go cli with the cobra
+Created The Repo For learning.How to create basic Cli with golang cobra
+
+# INSTALLATION
+Download the source code from the release tags
+go get github.com/spf13/cobra
+go build cli.go
+
+#USAGE
+cli 
+
+cli
+Welcome Time Series
+
+Usage:
+  cli [command]
+
+Available Commands:
+  day         
+  help        Help about any command
+  month       
+  time        
+  zone        
+
+Flags:
+  -h, --help   help for cli
+
+cli day displays the date of the month
+cli month displays the month of the year
+cli time displays the local time in 24-hour format
+cli zone displays the local time zone
