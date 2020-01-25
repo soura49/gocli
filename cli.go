@@ -16,6 +16,7 @@ func main() {
 	cmd.AddCommand(commands.PrintMonth())
 	cmd.AddCommand(commands.PrintDay())
 	cmd.AddCommand(commands.PrintZone())
+	cmd.AddCommand(commands.CreateJsonFile())
 	err := cmd.Execute()
 	if err != nil {
 		os.Exit(1)
