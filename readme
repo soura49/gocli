@@ -24,7 +24,11 @@ Available Commands:
 Flags:
   -h, --help   help for cli
 
-cli day displays the date of the month
-cli month displays the month of the year
-cli time displays the local time in 24-hour format
-cli zone displays the local time zone
+Below Command Displays the date of the month
+cli day 
+Below Command Displays month of the year
+cli month 
+Below Commands Displays the local time in 24-hour format
+cli time 
+Below Commands Displays the local time zone
+cli zone 
