@@ -33,3 +33,5 @@ Below Commands Displays the local time in 24-hour format
 cli time 
 Below Commands Displays the local time zone
 cli zone 
+Below Commands Create a autoscaling EC2 Json file
+cli create
