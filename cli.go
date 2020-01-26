@@ -1,5 +1,9 @@
 package main
 
+/*
+Simple Cli created to learn how cobra framework works
+*/
+
 import (
 	"os"
 

@@ -6,9 +6,15 @@ import (
 	"github.com/spf13/cobra"
 )
 
+/*
+Usage for the command is create
+Description is need to create a aws CFT template in json format
+*/
+
 func CreateJsonFile() *cobra.Command {
 	return &cobra.Command{
-		Use: "create",
+		Use:   "create",
+		Short: "To Create the AWS Cloudformation Json Template",
 		RunE: func(cmd *cobra.Command, args []string) error {
 			f, err := os.Create("create.json")
 			defer f.Close()
@@ -161,8 +167,8 @@ func CreateJsonFile() *cobra.Command {
 				},
 				"InstanceType": "t2.micro"
 				}
-				}
-				}`
+			}
+			}`
 			f.WriteString(d1)
 			return nil
 		},
