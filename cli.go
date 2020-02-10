@@ -7,7 +7,7 @@ Simple Cli created to learn how cobra framework works
 import (
 	"os"
 
-	"github.com/choascli/commands"
+	"commands"
 	"github.com/spf13/cobra"
 )
 
