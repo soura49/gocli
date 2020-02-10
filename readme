@@ -6,21 +6,26 @@ Download the source code from the release tags
 go get github.com/spf13/cobra
 go build cli.go
 
+cli  
 #USAGE
-cli 
-
-cli
 Welcome Time Series
 
 Usage:
   cli [command]
 
 Available Commands:
-  day         
+  create      To Create the AWS Cloudformation Json Template
+  day         Displays the Current local Day
+  fact        Determines the factorial of the element n
+  fib         Prints the Fibonacci of the elements
   help        Help about any command
-  month       
-  time        
-  zone        
+  month       Displays the Current month of the Year
+  time        Displays the current local time in 24-hour format
+  zone        Displays the Current Local Time Zone
+
+Flags:
+  -h, --help   help for cli
+   
 
 Flags:
   -h, --help   help for cli
@@ -35,3 +40,7 @@ Below Commands Displays the local time zone
 cli zone 
 Below Commands Create a autoscaling EC2 Json file
 cli create
+Below command creates the factorial of a number
+cli fact number(8)
+Below command creates the Fibonacci series of a number
+cli fib number(5)
