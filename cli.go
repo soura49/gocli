@@ -7,7 +7,7 @@ Simple Cli created to learn how cobra framework works
 import (
 	"os"
 
-	"commands"
+	"github.com/soura49/gocli/commands"
 	"github.com/spf13/cobra"
 )
 
