@@ -23,8 +23,10 @@ func main() {
 	cmd.AddCommand(commands.CreateJsonFile())
 	cmd.AddCommand(commands.Factorial())
 	cmd.AddCommand(commands.FibtoN())
+	cmd.AddCommand(commands.CheckAnagram())
 	err := cmd.Execute()
 	if err != nil {
 		os.Exit(1)
 	}
 }
+
