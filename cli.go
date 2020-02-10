@@ -24,9 +24,9 @@ func main() {
 	cmd.AddCommand(commands.Factorial())
 	cmd.AddCommand(commands.FibtoN())
 	cmd.AddCommand(commands.CheckAnagram())
+	cmd.AddCommand(commands.GenerateUUID())
 	err := cmd.Execute()
 	if err != nil {
 		os.Exit(1)
 	}
 }
-
