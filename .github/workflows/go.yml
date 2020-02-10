@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v1
 
     - name: Get dependencies
-      run: go get github.com/spf13/cobra
+      run: go get github.com/spf13/cobra && go get github.com/soura49/gocli/commands
 
     - name: Build
       run: go build -v .
